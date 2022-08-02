@@ -1,0 +1,66 @@
+* {
+    box-sizing:border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-family: 'Open Sans:wght@700',sans-serif;
+    font-size: 1.2rem;
+    background-color: #004D80;
+    color: whitesmoke;
+    display:flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+
+.cardContainer {
+    padding-top: 20px;
+}
+body {
+    margin: 0;
+}
+
+.countryCard {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    justify-content: space-between;
+    padding-top: 90px;
+}
+
+.name {
+    font-family: "Open Sans", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: white;
+    border: 1px solid #0076BA;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+    display: flex;
+    justify-content: center;
+    background: #0076BA;
+}
+
+.items {
+    border: 1px solid aliceblue;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background: #AEC57A ;
+    font-family: "Open Sans", serif;
+    padding-left: 10px;
+}
+
+html {
+    background-color: azure;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
