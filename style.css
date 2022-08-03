@@ -5,8 +5,8 @@
 
 nav {
     font-family: 'Open Sans:wght@700',sans-serif;
-    font-size: 1.2rem;
-    background-color: #004D80;
+    font-size: 1.5rem;
+    background-color: #1B729D;
     color: whitesmoke;
     display:flex;
     width: 100%;
@@ -28,7 +28,7 @@ body {
     flex-direction: column;
     width: 300px;
     justify-content: space-between;
-    padding-top: 90px;
+    padding-top: 100px;
 }
 
 .name {
@@ -36,27 +36,30 @@ body {
     font-weight: bold;
     font-size: 2rem;
     color: white;
-    border: 1px solid #0076BA;
+    border: 1px solid #B1D573;
     border-top-left-radius: 15px;
     border-top-right-radius: 15px;
     display: flex;
     justify-content: center;
-    background: #0076BA;
+    background: #B1D573;
 }
 
 .items {
-    border: 1px solid aliceblue;
+    border: 1px solid #EFCB59;
     border-bottom-left-radius: 15px;
     border-bottom-right-radius: 15px;
-    background: #AEC57A ;
+    background: #EFCB59 ;
     font-family: "Open Sans", serif;
     padding-left: 10px;
 }
 
 html {
-    background-color: azure;
+    background-color: #F0EFF5;
 }
 
+p{
+    font-weight: bold;
+}
 .cardContainer {
     display: flex;
     flex-direction: row;
