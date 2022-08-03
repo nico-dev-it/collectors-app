@@ -8,13 +8,13 @@ $allResults= dbpull();
 <head>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Spectral+SC:wght@200;300;400&display=swap" rel="stylesheet">
-<title>Traveler</title>
+    <title>Traveler</title>
 </head>
 <body>
 
-<nav>
-<h1>TRAVELER</h1>
-</nav>
+    <nav>
+        <h1>TRAVELER</h1>
+    </nav>
 
 
 <div class="cardContainer">
