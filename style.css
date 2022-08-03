@@ -4,14 +4,13 @@
 }
 
 nav {
-    font-family: 'Open Sans:wght@700',sans-serif;
-    font-size: 1.5rem;
-    background-color: #1B729D;
+    font-family: 'Spectral SC',sans-serif;
+    font-size: 2rem;
+    background-color: #091D36;
     color: whitesmoke;
     display:flex;
     width: 100%;
     justify-content: center;
-    position: fixed;
 }
 
 .cardContainer {
@@ -28,33 +27,34 @@ body {
     flex-direction: column;
     width: 300px;
     justify-content: space-between;
-    padding-top: 100px;
+    padding-top: 10px;
 }
 
 .name {
-    font-family: "Open Sans", sans-serif;
+    font-family: "Spectral SC", sans-serif;
     font-weight: bold;
     font-size: 2rem;
-    color: #1B729D;
-    border: 1px solid #B1D573;
-    border-top-left-radius: 15px;
-    border-top-right-radius: 15px;
+    color:white;
+    border: 1px solid #0B4C84;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
     display: flex;
     justify-content: center;
-    background: #B1D573;
+    background: #0B4C84;
 }
 
 .items {
-    border: 1px solid #EFCB59;
-    border-bottom-left-radius: 15px;
-    border-bottom-right-radius: 15px;
-    background: #EFCB59 ;
-    font-family: "Open Sans", serif;
+    border: 1px solid #9BC1EE;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #F0EFF5 ;
+    font-family: "Spectral SC", serif;
     padding-left: 10px;
+    color: #091D36;
 }
 
 html {
-    background-color: #F0EFF5;
+    background:linear-gradient( #F0EFF5,#9BC1EE);
 }
 
 p{
