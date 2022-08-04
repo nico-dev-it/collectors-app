@@ -7,7 +7,7 @@ nav {
     font-family: 'Spectral SC', sans-serif;
     font-size: 1.6rem;
     background-color: #091D36;
-    color: whitesmoke;
+    color: #F5F5F5FF;
     display: flex;
     width: 100%;
     justify-content: center;
@@ -82,7 +82,7 @@ p {
     font-family: "Spectral SC";
     font-weight: bold;
     background-color: #091D36;
-    color: white;
+    color: #FFFFFFFF;
 }
 
 input[type=text] {
@@ -99,12 +99,12 @@ input[type=text] {
     display: flex;
     /*position: fixed;*/
     justify-content: center;
-    top:10px;
+    top: 10px;
     padding-top: 20px;
     padding-bottom: 20px;
-    font-family: "Spectral SC",sans-serif;
+    font-family: "Spectral SC", sans-serif;
     font-size: 1.5rem;
-    margin-top:25px;
+    margin-top: 25px;
     margin-left: 10px;
     border: 3px solid #091D36;
     width: 250px;
@@ -114,6 +114,7 @@ input[type=text] {
     font-weight: bold;
     color: #F0EFF5;
 }
+
 .navButton a {
     text-decoration: none;
     color: #091D36;
@@ -133,6 +134,7 @@ input[type=text] {
         display: flex;
         width: 80vw;
     }
+
     .newCard {
         display: flex;
         font-family: "Spectral SC", sans-serif;
@@ -169,6 +171,7 @@ input[type=text] {
     h1 {
         font-size: 1rem;
     }
+
     .formContainer p {
         font-size: 12px;
     }
