@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+nav {
+    font-family: 'Spectral SC', sans-serif;
+    font-size: 1.6rem;
+    background-color: #091D36;
+    color: #F5F5F5FF;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    position: fixed;
+}
+
+.cardContainer {
+    padding-top: 160px;
+}
+
+body {
+    margin: 0;
+    width: 100vw;
+    height: 100vh;
+}
+
+.countryCard {
+    margin-bottom: 10px;
+    margin-right: 10px;
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    justify-content: space-between;
+    padding-top: 10px;
+}
+
+.name {
+    font-family: "Spectral SC", sans-serif;
+    font-weight: bold;
+    font-size: 2rem;
+    color: #F0EFF5;
+    border: 1px solid #0B4C84;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    justify-content: center;
+    background: #0B4C84;
+}
+
+.items {
+    border: 1px solid #9BC1EE;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    background: #F0EFF5;
+    font-family: "Spectral SC", serif;
+    padding-left: 10px;
+    color: #091D36;
+}
+
+html {
+    background: linear-gradient(70deg, #891F11 30%, #00000000 30%), linear-gradient(30deg, #fdcd3b 60%, #ffed4b 60%);
+    width: 100vw;
+    height: 100vh;
+}
+
+p {
+    font-weight: bold;
+}
+
+.cardContainer {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.formContainer {
+    display: flex;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    justify-content: center;
+    font-family: "Spectral SC";
+    font-weight: bold;
+    background-color: #091D36;
+    color: #FFFFFFFF;
+}
+
+input[type=text] {
+    border-radius: 10px;
+    height: 30px;
+    width: 150px
+}
+
+.formContainer p {
+    font-size: 1.3rem;
+}
+
+.navButton {
+    display: flex;
+    /*position: fixed;*/
+    justify-content: center;
+    top: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: "Spectral SC", sans-serif;
+    font-size: 1.5rem;
+    margin-top: 25px;
+    margin-left: 10px;
+    border: 3px solid #091D36;
+    width: 250px;
+    height: auto;
+    background-color: #F0EFF5;
+    border-radius: 15px;
+    font-weight: bold;
+    color: #F0EFF5;
+}
+
+.navButton a {
+    text-decoration: none;
+    color: #091D36;
+    font-size: 1.5rem;
+    font-weight: bold;
+}
+
+
+@media screen and (max-width: 900px) {
+    .cardContainer {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .countryCard {
+        display: flex;
+        width: 80vw;
+    }
+
+    .newCard {
+        display: flex;
+        font-family: "Spectral SC", sans-serif;
+        font-size: 12px;
+        margin-top: 100px;
+        margin-bottom: 10px;
+        border: 3px solid #091D36;
+        width: 130px;
+        height: 20px;
+        background-color: #F0EFF5;
+        border-radius: 15px;
+        font-weight: bold;
+        color: #F0EFF5;
+    }
+
+    .newCard a {
+        text-decoration: none;
+        color: #091D36;
+        font-size: 12px;
+        font-weight: bold;
+    }
+
+    body {
+        display: flex;
+        flex-direction: column;
+    }
+
+    input[type=text] {
+        border-radius: 5px;
+        height: 20px;
+        width: 200px
+    }
+
+    h1 {
+        font-size: 1rem;
+    }
+
+    .formContainer p {
+        font-size: 12px;
+    }
+}
