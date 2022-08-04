@@ -6,15 +6,15 @@ use PHPUnit\Framework\TestCase;
 
 class functions extends TestCase
 {
-    public function testSuccessDisplayCards_1()
+    public function testSuccessDisplayCardsString()
     {
         $input = [['name' => 'England', 'place' => 'Lulworth', 'landmark' => 'Durdle Door', 'activity' => 'Walking', 'food' => 'sea food']];
-        $actualOutput = displayCards($input);
-        $this->assertIsString($actualOutput);
+        $output = displayCards($input);
+        $this->assertIsString($output);
 
     }
 
-    public function testSuccessDisplayCards_2()
+    public function testSuccessDisplayCardsCorrectOutput()
     {
         $input = [['name' => 'England', 'place' => 'Lulworth', 'landmark' => 'Durdle Door', 'activity' => 'Walking', 'food' => 'sea food']];
         $expectedOutput = '<div class="countryCard"><div class="name"><p>England</p></div><div class="items"><p>Place: Lulworth</p><p>Landmark: Durdle Door</p><p>Activity: Walking</p><p>Food: sea food</p></div></div>';
@@ -22,6 +22,7 @@ class functions extends TestCase
         $this->assertEquals($expectedOutput, $actualOutput);
     }
 
+    //Failure test because wrong data. It will return an empty string.
     public function testFailureDisplayCards()
     {
         $input = [['nametest1' => 'test1']];
