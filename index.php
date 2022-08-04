@@ -1,11 +1,12 @@
 <?php require_once 'functions.php';
-$allResults= dbpull();
+$allResults= getAllCountriesFromDb();
 ?>
 
 <!DOCTYPE html>
 <html lang="en">
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700&family=Spectral+SC:wght@200;300;400&display=swap" rel="stylesheet">
     <title>Traveler</title>
@@ -19,8 +20,7 @@ $allResults= dbpull();
 
 <div class="cardContainer">
 <?php
-$countries = $allResults;
-echo displayCards($countries);
+echo displayCards($allResults);
 ?>
 </div>
 

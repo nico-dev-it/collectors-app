@@ -1,5 +1,5 @@
 <?php
-function dbpull():array{
+function getAllCountriesFromDb():array{
     $connectionString = 'mysql:host=db; dbname=traveler';
     $dbUsername = 'root';
     $dbPassword = 'password';
