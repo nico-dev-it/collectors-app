@@ -31,4 +31,3 @@ class functions extends TestCase
         $this->assertEquals($expectedOutput, $actualOutput);
     }
 }
-
