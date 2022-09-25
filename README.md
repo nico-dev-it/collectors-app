@@ -7,8 +7,11 @@ All cards can be viewed in the app. Details are coming from a database and displ
 Each card represents a travel destination including, landmark, activity and food! 
 
 You can also create your own card, simply add:
-—> a name of country
-—> a place
+
+  —> a name of country
+
+  —> a place
+
 And any landmark, activity or food of your choice! 
 
 Have some fun 🌍 😎
